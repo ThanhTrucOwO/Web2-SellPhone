@@ -1,0 +1,133 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cart_main
+{
+    margin-bottom: 50px;
+}
+.cart_title
+{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.cart_table
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cart_save
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.save
+{
+    display: block;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 0.5px solid #333;
+    background-color: rgb(218, 73, 73);
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cart_column
+{
+    font-weight: bold;
+}
+.cart_row
+{
+    display: flex;
+    text-align:center;
+    padding: 15px 0px;
+    border-bottom: 1px solid rgba(207, 207, 207, 0.534);
+    align-items: center;
+}
+
+.cart_prd_name{
+    width: 37% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart_prd_price{
+    width: 18%;
+}
+.cart_prd_quantity{
+    width: 15%;
+}
+.cart_prd_total_sm{
+    width: 18%;
+}
+.cart_prd_del
+{
+    width: 12%;
+}
+.cart_prd_name .cart_prd_image
+{
+    width: 40%;
+}
+.cart_prd_name .cart_prd_name_details
+{
+    width: 60%;
+}
+.cart_prd_name .cart_prd_image img
+{
+    width: 50%;
+}
+.cart_prd_quantity input{
+    width: 30%;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 5px;
+    padding: 5px 0px;
+    padding-left: 5px;
+}
+.cart_footer
+{
+    width: 80%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.cart_footer_right
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.cart_footer_right_r
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;   
+}
+.cart_footer .cart_btn_pay
+{
+    background-color: rgb(209, 76, 76);
+    margin-left: 25px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+.cart_footer .cart_btn_pay:hover
+{
+    background-color: rgb(236, 104, 104);
+}
+.save
+{
+    display: block;
+}

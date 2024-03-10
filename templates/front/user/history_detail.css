@@ -1,0 +1,124 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container
+{
+    display: flex;
+    justify-content: space-between;
+}
+div.left
+{
+    min-height: 100vh;
+    padding: 10px 0px;
+    background-color: rgba(209, 209, 209, 0.466);
+    width: 18%;
+}
+div.left h4
+{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+div.left ul.list_choice
+{
+    list-style-type: none;
+}
+div.left ul.list_choice li a
+{
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    color: #333;
+    text-decoration: none;
+}
+div.left ul.list_choice li.ls
+{
+    background-color: rgb(220, 44, 44);
+}
+div.left ul.list_choice li.ls a
+{
+    color: white;
+}
+div.right
+{
+    width: 82%;
+}
+/* CHI TIET DON HANG */
+
+.profile_history_details
+{
+    margin-bottom: 30px;
+}
+.history_details_table{
+    width: 80%;
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.history_details_column{
+    font-weight: bold;
+}
+.history_details_row{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 15px 0px;
+    border-bottom: 1px solid rgba(207, 207, 207, 0.534);
+}
+.history_details_name{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.history_details_price{
+    width: 25%;
+}
+.history_details_quantity{
+    width: 10%;;
+}
+.history_details_total_sm{
+    width: 25%;
+}
+
+.history_details_image{
+    width: 40%;
+}
+.history_details_image img{
+    width: 55%;
+}
+.history_details_name_details{
+    width: 60%;
+}
+
+.history_details_footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.history_details_btn_back{
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(250, 69, 69);
+    color: white;
+}
+.history_details_btn_back:hover{
+    background-color: rgb(210, 74, 74);
+    color: white;
+}
+.title{
+    text-align:center;
+}

@@ -1,0 +1,120 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container
+{
+    display: flex;
+    justify-content: space-between;
+}
+div.left
+{
+    min-height: 100vh;
+    padding: 10px 0px;
+    background-color: rgba(209, 209, 209, 0.466);
+    width: 18%;
+}
+div.left h4
+{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+div.left ul.list_choice
+{
+    list-style-type: none;
+}
+div.left ul.list_choice li a
+{
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    color: #333;
+    text-decoration: none;
+}
+div.left ul.list_choice li.ls
+{
+    background-color: rgb(220, 44, 44);
+}
+div.left ul.list_choice li.ls a
+{
+    color: white;
+}
+div.right
+{
+    width: 82%;
+}
+div.display_inf{
+    display: flex;
+    margin-top: 40px;
+    font-size: 17px;
+    align-items: center;
+}
+div.display_inf span{
+    display: block;
+    width: 120px;
+}
+div.display_inf input{
+    flex: 1;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 216, 216);
+    padding: 7px 0px;
+    padding-left: 10px;
+    font-size: 17px;
+}
+div.right h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;
+}
+/* LICH SU MUA HANG */
+.profile_purchase_history
+{
+    display: block;
+}
+.history_table
+{
+    margin-top: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.history_row
+{
+    display: flex;
+    text-align: center;
+    padding: 15px 0px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+.history_order_id{
+    width: 25%;
+}
+.history_order_day{
+    width: 25%;
+}
+.history_order_status{
+    width: 25%;
+}   
+.history_order_view_details{
+    width: 25%;
+}
+a.history_order_view_details
+{
+    color: #333;
+    text-decoration: none;
+}
+a.history_order_view_details:hover
+{
+    color: #be1e2d;
+}
+.history_column
+{
+    font-weight: bold;
+}

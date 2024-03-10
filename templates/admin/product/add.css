@@ -1,0 +1,67 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root
+{
+    --main-color:#be1e2d;
+    --white-color:#fff;
+}
+form
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+form p
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+label{
+    width: 40%;
+}
+textarea
+{
+    width: 60%;
+    height: 145px;
+}
+input
+{
+    padding-left: 10px;
+    width: 60%;
+    border-radius: 5px;
+    border: 0.5px solid #333;
+}
+select
+{
+    width: 60%;
+}
+.checkbok
+{
+    display: inline-block;
+    padding: 5px;
+}
+.submit
+{
+    width: 30%;
+    padding: 5px 0px;
+    background-color: #e23446;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.submit:hover
+{
+    background-color: #f45262;
+}
+h3.title
+{
+    text-align: center;
+}

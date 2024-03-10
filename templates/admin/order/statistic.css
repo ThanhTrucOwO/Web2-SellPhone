@@ -1,0 +1,52 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root
+{
+    --main-color:#be1e2d;
+    --white-color:#fff;
+}
+form
+{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+form p
+{
+    display: flex;
+    justify-content: space-between;
+}
+form p label
+{
+    width: 40%;
+}
+form p input
+{
+    width: 60%;
+}
+.submit
+{
+    width: 30%;
+    padding: 5px 0px;
+    background-color: #e23446;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.submit:hover
+{
+    background-color: #f45262;
+}
+h3.title
+{
+    text-align: center;
+}

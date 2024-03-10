@@ -1,0 +1,132 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root
+{
+    --main-color:#be1e2d;
+    --white-color:#fff;
+}
+/* PHAN SAN PHAM */
+.main{
+    margin-top: 0px;
+    display: flex;
+}
+.timkiem{
+    margin-top: 50px;
+    width: 20%;
+    font-size: 14px;
+    text-align: center;
+}
+.product
+{
+    width: 80%;
+}
+.timkiem input{
+    border-radius: 5px;
+    border: 0.5px solid #333;
+    display: block;
+    padding: 5px 2px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.timkiem .type_find{
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.submit_inp
+{
+    background-color: #d73444;
+    width: 70%;
+    margin: 20px auto 0px auto;
+    transition: color 0.1s;
+    color: white;
+    border: none;
+}
+.submit_inp:hover
+{
+    background-color: #e25b68;   
+}
+.product
+{
+    padding-left: 20px;
+}
+.product_list
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.prd_list_sale
+{   
+    background-color: #be1e2d;
+    border-radius: 5px;
+    height: 450px;
+}
+.prd-items
+{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 24%;
+    padding:20px;
+    background-color: #fff;
+    height: 350px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.prd-items a
+{
+    text-decoration: none;
+    color: #333;
+}
+.prd-img
+{
+    overflow: hidden;
+}
+
+.prd-items a:hover .prd-name
+{
+    color:#007bff;
+}
+.prd-items img
+{
+    transition: all 0.7s;
+    width: 100%;
+}
+.prd-name
+{
+    font-weight: normal;
+    font-size: 18px;
+    padding-top: 15px;
+}
+.prd-price
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+.prd-price-sale
+{
+    font-weight: normal;
+    font-size: 20px;
+}
+.prd-not-sale:hover
+{
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+h3.title
+{
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+

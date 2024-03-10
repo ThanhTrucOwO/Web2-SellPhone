@@ -1,0 +1,414 @@
+.top-bar {
+    min-height: 40px;
+    background-color: var(--black-color-);
+}
+
+.header-wrapper {
+    box-shadow: rgb(0 0 0 / 15%) 1px 2px 15px 0px;
+}
+.header-topbar {
+    display: flex;
+    justify-content: space-between;
+}
+.header-sale {
+    line-height: 40px;
+    color: var(--white-color-);
+    font-size: 13px;
+    font-weight: bolder;
+}
+.header-social {
+    display: flex;
+    align-items: center;
+}
+.header-social-phone {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.header-phone-number {
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+}
+.header-social-phone-box i {
+    color: rgba(255,255,255,0.8);
+    font-size: 13px;
+    margin-right: 2px;
+    transition: all .3s;
+}
+.header-social-hover {
+    position: absolute;
+    width: max-content;
+    height: 20px;
+    color: var(--white-color-);
+    background-color: var(--black-color-);
+    top: 40px;
+    left: 9px;
+    padding: 6px 10px 0px 10px;
+    box-sizing: content-box;
+    border-radius: 7px;
+    font-size: 13px;
+    display: none;
+    /* transition: all 0.3s ease; */
+    z-index: 1;
+    animation: fadein 1s ease;
+}
+.hover-square {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: -4px;
+    transform: rotate(-45deg);
+    background-color: var(--black-color-);
+    z-index: -1;
+    left: 37px;
+}
+.header-social-phone:hover .header-social-hover {
+    display: block;
+}
+.header-social-phone:hover .header-social-phone-box i {
+    color: var(--white-color-);
+}
+.header-social-phone:hover .header-phone-number {
+    color: var(--white-color-);
+}
+.header-social-fb {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(58, 88, 157);
+    border-radius: 5px;
+    margin: 0 2px;
+    transition: all 0.3s ease;
+}
+.header-social-fb-icon i {
+    padding-left: 11px;
+    color: var(--white-color-);
+}
+.header-social-ig-icon i {
+    padding-left: 9px;
+    color: var(--white-color-);
+}
+.header-social-yt-icon i {
+    padding-left: 7.5px;
+    color: var(--white-color-);
+}
+.header-social-hover-fb  {
+    top: 46px;
+    left: -30px;
+}
+.header-fb-hover:hover {
+    background-color: #2a4788;
+}
+.header-fb-ig {
+    background-color: #3b6994;
+}
+.header-fb-ig:hover {
+    background-color: #23527e;
+}
+.header-fb-tw {
+    background-color: #2478ba;
+}
+.header-fb-tw:hover {
+    background-color: #1a6aa7;
+}
+.header-fb-yt {
+    background-color: #c33223;
+}
+.header-fb-yt:hover {
+    background-color: #9e2316;
+}
+.header-social-phone-sdt {
+    margin-right: 25px;
+}
+
+/* ................................Liên hệ........................ */
+
+.lienhe-top-box {
+    padding-top: 100px;
+    background-color: rgb(246, 246, 246);
+    padding-bottom: 100px;
+
+}
+.lienhe-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: max-content;
+    margin: auto;
+}
+.lienhe-connect-icon-box {
+    display: flex;
+    width: max-content;
+    margin: auto;
+    padding-top: 50px;
+}
+.lienhe-connect-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+.lienhe-connect-icon  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+    position: relative;
+}
+
+.lienheFB i,
+.lienhe-ITG i,
+.lienhe-TIKTOK i,
+.lienhe-TWWITER i,
+.lienhe-PHONE i,
+.lienhe-YT i {
+    color: #fff
+}
+.lienheFB {
+    background-color: rgb(58, 88, 157);
+    transition: all 0.3s ease;
+}
+.lienheFB:hover {
+    background-color: rgb(25, 54, 121);
+}
+.lienhe-ITG {
+    background-color: rgb(59, 105, 148);
+    transition: all 0.3s ease;
+}
+.lienhe-ITG:hover {
+    background-color: rgb(34, 85, 133);
+}
+.lienhe-TIKTOK {
+    background-color: #000;
+    transition: all 0.3s ease;
+}
+.lienhe-TWWITER {
+    background-color: rgb(36, 120, 186);
+    transition: all 0.3s ease;
+}
+.lienhe-TWWITER:hover {
+    background-color: rgb(17, 82, 131);
+}
+.lienhe-PHONE {
+    background-color: rgb(81, 203, 90);
+    transition: all 0.3s ease;
+}
+.lienhe-PHONE:hover {
+    background-color: rgb(27, 143, 34);
+}
+.lienhe-YT {
+    background-color: rgb(195, 50, 35);
+    transition: all 0.3s ease;
+}
+.lienhe-YT:hover {
+    background-color: rgb(150, 31, 18);
+}       
+.lienhe-connect-icon-hover {
+    top: -47px;
+    left: -87%;
+    animation: lienhe-icon 0.5s;
+}             
+.lienhe-connect-icon-square {
+    display: block;
+    top: 18px;
+    left: 45%;
+}  
+.lienhe-connect-icon-hover-phone {
+    top: -47px;
+    left: -50%;
+}
+.lienhe-connect-icon:hover .lienhe-connect-icon-hover{
+    display: block;
+}
+@keyframes lienhe-icon {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.lienhe-mid {
+    max-width: max-content;
+    margin: auto;
+    display: flex;
+    margin-top: -63px;
+}
+.lienhe-mid-items:first-child {
+    padding-right: 40px;
+}
+.lienhe-mid-img-box img{
+    width: 380px;
+    height: 250px;
+}
+.lienhe-mid-city,
+.lienhe-mid-street,
+.lienhe-mid-district,
+.lienhe-mid-phone,
+.lienhe-mid-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lienhe-mid-city {
+    padding-top: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    color: rgb(104, 104, 104);
+    letter-spacing: 0.7px;
+}
+.lienhe-mid-street {
+    padding-top: 8px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.lienhe-mid-district {
+    font-size: 14px;
+    padding-top: 7px;
+    color: rgb(34, 34, 34);
+}
+.lienhe-mid-phone {
+    font-size: 14px;
+    padding-top: 20px;
+    color: rgb(34, 34, 34);
+}
+.lienhe-mid-email {
+    font-size: 14px;
+    padding-top: 5px;
+    color: rgb(34, 34, 34);
+}
+.lienhe-bottom {
+    max-width: max-content;
+    margin: auto;
+    padding-top: 70px;
+}
+.lienhe-address-title {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+.lienhe-address-title span {
+    padding: 0 10px;
+}   
+.lienhe-address-title hr {
+    height: 2px;
+    flex: 1;
+    width: 250px;
+}
+hr.lienhe-hr {
+    border: 1px solid rgb(231, 231, 231);
+}
+.lienhe-map {
+    padding-top: 20px;
+}
+.lienhe-map iframe {
+    width: 100%;
+    height: 450px;
+}
+    .wide-nav-items-span {
+    color: #777;
+    }
+    .danhmuc-cuahang {
+    color: #000;
+    }
+    .modal_quick_view {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index: 20;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: none; 
+    }
+    .container_quick_view {
+        width: 875px;
+        height: 90vh;
+        background-color: #fff;
+    }
+    .quick_view-box-img {
+        overflow: hidden;
+        display: flex;
+        padding-top: 15px;
+        padding-left: 30px;
+    }
+    .quick_view-box-img img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+    }
+    .user {
+        margin-right: 30px;
+        margin-top: 12px;
+        cursor: pointer;
+        position: relative;
+    }
+    .login__mobile  {
+        display: none;
+    }
+    .user_name {
+        display: flex;
+    }
+    .user_name span{
+        font-weight: 600;
+        font-size: 18.5px;
+    }
+    .user_name i {
+        margin-left: 5px;
+        margin-top: 1px;
+        font-size: 17px;
+    }
+
+    .infor_user {
+        position: absolute;
+        top: 120%;
+        right: 0;
+        box-shadow: 0px 0px 5px 1px #d9d4d4;
+        width: 170px;
+        padding: 12px;
+        transition: all ease 0.4s;
+        z-index: 10;
+        background-color: #fff;
+        display: none;
+    }
+    .infor_user::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100px;
+        height: 50px;
+        top: -30px;
+        right: 0;
+    }
+    .infor_user span {
+        padding-bottom: 5px;
+        color: #000;
+    }
+    .logout span {
+        padding-bottom: 5px;
+        color: #000;
+    }
+    .user:hover .infor_user {
+        display: block;
+    }
+    .infor-user__mobile {
+        display: none;
+    }
+    .user_name__mobile {
+        display: none;
+    }
+    .close__overlay {
+        display:none;
+    }
+
+

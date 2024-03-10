@@ -1,0 +1,127 @@
+
+/* PHAN SAN PHAM */
+.product
+{
+    padding: 0 20px;
+}
+.product_list
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.prd_list_sale
+{   
+    background-color: #be1e2d;
+    border-radius: 5px;
+    height: 400px;
+}
+.prd-items
+{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 19%;
+    padding:20px;
+    background-color: #fff;
+    height: 350px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.prd-items a
+{
+    text-decoration: none;
+    color: #333;
+}
+.prd-img
+{
+    overflow: hidden;
+}
+
+.prd-items a:hover .prd-name
+{
+    color:#007bff;
+}
+.prd-items img
+{
+    transition: all 0.7s;
+    width: 100%;
+}
+.prd-name
+{
+    font-weight: normal;
+    font-size: 18px;
+    padding-top: 15px;
+}
+.prd-price
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+.prd-price-sale
+{
+    font-weight: normal;
+    font-size: 20px;
+}
+.prd-not-sale:hover
+{
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+h3.title
+{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+div.view_all_prd
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+a.btn_view_all
+{
+    font-size: 17px;
+    display: block;
+    padding: 5px 30px;
+    background-color: #f05959;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+a.view_all_sale
+{
+    font-size: 17px;
+    display: block;
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 0;
+}
+a.view_all_sale:hover
+{
+    color: #f05959;
+}
+a.btn_view_all:hover
+{
+    background-color: #b34040;
+}
+
+/* phan banner */
+.banner
+{
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+.banner img
+{
+    width: 100%;   
+}

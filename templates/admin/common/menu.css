@@ -1,0 +1,124 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root
+{
+    --main-color:#be1e2d;
+    --white-color:#fff;
+}
+.hd_1
+{
+    height: 92px;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: space-between;
+    color: var(--white-color);
+    align-items: center;
+    padding: 0px 20px;
+}
+div.hd_1 input{
+    border-radius: 22px;
+    border: 0.5px solid rgb(209, 209, 209);
+    padding: 10px 20px;
+    height: 40px;
+    width: 450px;
+}
+div.hd_1 .hd_1_bdr{
+    border-right: 1px solid var(--white-color);
+    padding-right: 20px;
+    color: var(--white-color);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div.hd_1 .hd_1_bdr i{
+    font-size: 25px;
+    padding-right: 12px;
+}
+.ic_giohang{
+    font-size: 30px;
+    color: var(--white-color);
+}
+.hd_2
+{
+    height: 65px;
+    padding: 0px 20px;
+}
+ul.main_menu
+{
+    list-style-type: none;
+    display: flex;
+}
+ul.main_menu > li > a
+{
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    font-size: 14px;
+    line-height: 65px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+}
+ul.main_menu li a:hover
+{
+    color: #be1e2d ;
+}
+ul.main_menu li a i
+{
+    padding-right: 10px;
+    font-size: 25px;
+}
+ul.main_menu li
+{
+    position: relative;
+    z-index: 92;
+}
+ul.sub_menu
+{
+    position: absolute;
+    list-style-type: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: none;
+    z-index: 99;
+    background-color: #ffffff;
+}
+ul.main_menu li:hover ul.sub_menu
+{
+    display: block;
+}
+ul.sub_menu li a
+{
+    display: block;
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    line-height: 50px;
+    min-width: 200px;
+    padding-left: 15px;
+}
+ul.sub_menu li a:hover
+{
+    text-decoration: underline;
+}
+.chinhanh {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 7px 120px;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+}
+.dangxuat{
+    display: block;
+}
+h3.title{
+    text-align:center;
+    margin:10px 0px 20px 0px;
+    text-transform: uppercase;
+}

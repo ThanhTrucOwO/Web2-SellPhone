@@ -1,0 +1,112 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root
+{
+    --main-color:#be1e2d;
+    --white-color:#fff;
+}
+.footer{
+  margin-top: 75px;
+  background-color: rgb(241, 241, 241);
+}
+.main-footer{
+  padding: 20px 20px 0px 20px;
+}
+.body-footer
+{
+  display: flex;
+  color: rgb(14, 14, 14);
+  font-size: 0.9rem;
+}
+.footer-lienhe,
+.footer-thongtin
+{
+  width: 25%;
+}
+
+.footer-chitiet
+{
+  width: 50%;
+}
+
+
+/* Footer-lienhe Footer-thongtin */
+.footer-lienhe a,
+.footer-thongtin a
+{
+  text-decoration: none;
+  color: rgb(14, 14, 14);
+  line-height : 27px;
+}
+.footer-lienhe a:hover,
+.footer-thongtin a:hover
+{
+  color: #be1e2d;
+}
+.footer-lienhe ul,
+.footer-thongtin ul
+{
+  margin-top: 10px;
+  list-style: none;
+}
+
+/* Footer-chitiet */
+
+.chitiet-img
+{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.chitiet-img img
+{
+  width: 25%;
+  height: 100%;
+  object-fit: contain;
+}
+.chitiet-thongtin
+{
+  display: flex;
+}
+.thongtin-section1
+{
+  width: 40%;
+}
+.thongtin-section1 >div >div
+{
+  display: flex;
+  margin-top: 15px;
+}
+.thongtin-section1 >div >div i
+{
+  margin-right: 10px;
+}
+.thongtin-section2
+{
+  width: 60%;
+}
+.thongtin-section2 p
+{
+  margin-bottom: 10px;
+}
+
+/* PHAN BAN QUYEN */
+.sub-footer{
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.sub-footer span{
+  color: rgb(104, 104, 104);
+}

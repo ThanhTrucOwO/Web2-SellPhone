@@ -1,0 +1,74 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root
+{
+    --main-color:#be1e2d;
+    --white-color:#fff;
+}
+/* PHAN SAN PHAM */
+.main{
+    display: flex;
+    padding: 0 20px;
+}
+.anh{
+    width: 30%;
+}
+.anh img
+{
+    width: 100%;
+}
+.thongtin
+{
+    margin-left: 50px;
+    width: 70%;
+}
+.anh
+{
+    display: flex;
+    align-items: center;
+}
+.prd-name
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+.prd-price
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+.prd-price-sale
+{
+    font-weight: normal;
+    font-size: 18px;
+}
+.prd-detail
+{
+    font-size: 16px;
+}
+.quantity
+{
+    border-radius: 5px;
+    border: 0.5px solid #333;
+    text-align: center;
+    padding-right: 10px;
+}
+.muangay
+{
+    display: block;
+    background-color: #d03c4a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 14px;
+    padding: 5px 20px;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
